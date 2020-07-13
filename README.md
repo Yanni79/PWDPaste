@@ -10,7 +10,9 @@ Please send any bugs or enhancement requests, as well as your compliments and we
 
 Not providing a compiled executable to prevent any potential abuse.
 
- Save this text as a filename with the au3 extension - for example PwdPaste.au3
+ Install AutoIt 3.x (preferably the latest). 
+ Save the PWDPaste.au3 to your local machine (or copy/paste text into a similarly named file with an au3 extension).
+ Save the ClipPass.ico icon file (included). 
  Open the Auoit Compiler ("C:\Program Files (x86)\AutoIt3\Aut2Exe\Aut2exe.exe")
  Select the Source File as PWDPaste.au3
  Select the Destination File as the name of the executable you want (PwdPaste.exe) for example.
@@ -19,7 +21,8 @@ Not providing a compiled executable to prevent any potential abuse.
 
 Usage: Run the compiled executable on a windows based machine. It should appear as an icon in the system tray.
 Copy the desired password into clipboard (for example out of CyberArk).
-Press ctrl+shift+N on your local desktop - then focus on the password field that you want type into (for example the console of a remote computer)
+Press Ctrl+Shift+N, with the FOCUS being on on your local desktop (IMPORTANT) - then focus on the password field that you want type into (for example the console of a remote computer). 
+The expected behavior is that after 2 seconds the keyboard emulation will start typing the password on the "far end". 
 
 
 The defined combinations are

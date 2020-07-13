@@ -29,3 +29,5 @@ The defined combinations are
      
 Adjust the variables prior to compilation as needed (for example if you want a longer wait time to re-focus where you will type the password). 
 
+TLDR; To get started, you'll need the latest version of Autoit, and the included PWDpaste.au3 file (as well as the optional icon file). 
+Follow the directions above, once you have the files.

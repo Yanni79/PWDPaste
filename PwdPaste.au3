@@ -8,7 +8,7 @@
 ;
 ; Save this text as a filename with the au3 extension - for example PwdPaste.au3
 ; Open the Auoit Compiler ("C:\Program Files (x86)\AutoIt3\Aut2Exe\Aut2exe.exe")
-; Select the Source File as PassClip.au3
+; Select the Source File as PWDPAste.au3 (this file). 
 ; Select the Destination File as the name of the executable you want (PwdPaste.exe) for example.
 ; For the Options - you can use the included icon file or your own
 ; You can choose to compile for a x64 system (though a 32 bit executable should work as well).

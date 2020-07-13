@@ -5,14 +5,14 @@ PwdPaste Version 1.1
 It sends the text content of the clipboard to a remote session by emulating keystrokes (vs paste).
 This is meant to bypass limitations of where pasting text is not allowed/supported.
 
-
-
-This was developed by Yanni Shainsky | yanni@BannermenInc.com
+PWDPaste was developed by Yanni Shainsky | yanni@BannermenInc.com
 Please send any bugs or enhancement requests, as well as your compliments and well wishes.
+
+Not providing a compiled executable to prevent any potential abuse.
 
  Save this text as a filename with the au3 extension - for example PwdPaste.au3
  Open the Auoit Compiler ("C:\Program Files (x86)\AutoIt3\Aut2Exe\Aut2exe.exe")
- Select the Source File as PassClip.au3
+ Select the Source File as PWDPaste.au3
  Select the Destination File as the name of the executable you want (PwdPaste.exe) for example.
  For the Options - you can use the included icon file or your own
  You can choose to compile for a x64 system (though a 32 bit executable should work as well).
@@ -27,4 +27,5 @@ The defined combinations are
 		 ctrl+shift+b to type something slower (with no delay from when typing starts)
 		 ctrl+shift+n to type something slower (with the default delay of 2 seconds before starting to type)
      
-     Adjust the variables prior to compilation as needed (for example if you want a longer wait time to re-focus where you will type the password). 
+Adjust the variables prior to compilation as needed (for example if you want a longer wait time to re-focus where you will type the password). 
+

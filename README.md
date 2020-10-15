@@ -1,12 +1,18 @@
 # PWDPaste
 Compilable utility to type out passwords where paste is not supported (Consoles, locked RDP screens, etc).
-This is an Autoit script that's meant to be compiled to an executable.
-PwdPaste Version 1.1
-It sends the text content of the clipboard to a remote session by emulating keystrokes (vs paste).
+
+
+This is an Autoit script that's meant to be compiled to an executable - PwdPaste Version 1.1
+The works by sending the text content of the clipboard to a remote session by emulating keystrokes as an alternative to the "paste" function. 
 This is meant to bypass limitations of where pasting text is not allowed/supported.
+
+This can also type out the password in a "Remote" session. For example if you have a console session open, and need to type out the password on a locked screen. You would have the focus on your local machine, press a key combniation, and then have 2 seconds to switch the focus to the locked screen and the password would be typed out there (keys would be pressed on your local machine, but letters would appear on the far-machine). 
+
 
 PWDPaste was developed by Yanni Shainsky | yanni@BannermenInc.com
 Please send any bugs or enhancement requests, as well as your compliments and well wishes.
+
+
 
 Not providing a compiled executable to prevent any potential abuse.
 

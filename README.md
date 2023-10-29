@@ -9,7 +9,7 @@ This is meant to bypass limitations of where pasting text is not allowed/support
 This can also type out the password in a "Remote" session. For example if you have a console session open, and need to type out the password on a locked screen. You would have the focus on your local machine, press a key combniation, and then have 2 seconds to switch the focus to the locked screen and the password would be typed out there (keys would be pressed on your local machine, but letters would appear on the far-machine). 
 
 
-PWDPaste was developed by Yanni Shainsky | yanni@BannermenInc.com
+PWDPaste was developed by Yanni Shainsky (yanni@BannermenInc.com) and with major contributions from Matthew Kirby (matt@BannermenInc.com)
 Please send any bugs or enhancement requests, as well as your compliments and well wishes.
 
 
@@ -17,7 +17,7 @@ Please send any bugs or enhancement requests, as well as your compliments and we
 Not providing a compiled executable to prevent any potential abuse.
 
  Install AutoIt 3.x (preferably the latest). 
- Save the PWDPaste.au3 to your local machine (or copy/paste text into a similarly named file with an au3 extension).
+ Save the PWDPaste-v1.2.au3 to your local machine (or copy/paste text into a similarly named file with an au3 extension).
  Save the ClipPass.ico icon file (included). 
  Open the Auoit Compiler ("C:\Program Files (x86)\AutoIt3\Aut2Exe\Aut2exe.exe")
  Select the Source File as PWDPaste.au3
